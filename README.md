@@ -1,1 +1,2 @@
-# manvitha_bridal_beauty
+# beauty-parlour-website
+Static website for my beauty parlour
