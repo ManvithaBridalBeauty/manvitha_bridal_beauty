@@ -242,26 +242,31 @@ body {
 
 /* Responsive */
 @media(max-width: 768px) {
-    .service-grid {
-        grid-template-columns: 1fr;
+
+    .menu-btn {
+        display: none;
     }
 
     .nav {
-        display: none;
-        flex-direction: column;
-        background: #111;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        width: 200px;
-    }
-
-    .nav.active {
-        display: flex;
-    }
-
-    .menu-btn {
         display: block;
+        width: 100%;
+    }
+
+    .nav ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding-top: 10px;
+    }
+
+    .nav a {
+        margin-left: 0;
+        font-size: 14px;
+    }
+
+    .header .container {
+        flex-direction: column;
     }
 }
 
